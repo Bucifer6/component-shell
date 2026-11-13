@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:synthetic:widget-manifest:v1",
+  "type": "object",
+  "required": ["id", "title", "path", "version"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"const": "demo-widget"},
+    "title": {"type": "string"},
+    "path": {"const": "/"},
+    "version": {"const": 1}
+  }
+}
